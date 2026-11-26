@@ -1,4 +1,7 @@
-Personal Blog ini adalah website pribadi yang dibuat sebagai bagian dari tugas mata kuliah Pengembangan Diri. Blog ini menceritakan perjalanan, pengalaman, serta perkembangan saya dalam bidang teknologi dan Informatika, mulai dari pengalaman di dunia industri hingga ketertarikan terhadap pengembangan teknologi digital.
+- **Nama** : Alfarisi Azhar
+- **NIM** : 23552011180
+- **Kelas** : TIF K23 B
+- **Mata Kuliah** : Pengembangan Diri
 
 ## 🌐 Live Demo
 
