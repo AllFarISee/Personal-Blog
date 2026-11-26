@@ -1,7 +1,7 @@
-**Nama** : Alfarisi Azhar
-**NIM** : 23552011180
-**Kelas** : TIF K23 B
-**Mata Kuliah** : Pengembangan Diri
+-- **Nama** : Alfarisi Azhar
+-- **NIM** : 23552011180
+-- **Kelas** : TIF K23 B
+-- **Mata Kuliah** : Pengembangan Diri
 
 ## 🌐 Live Demo
 
