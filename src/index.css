@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-base: var(--base);
+  --color-panel: var(--panel);
+  --color-ink: var(--ink);
+  --color-dim: var(--dim);
+  --color-line: var(--line);
+  --color-acc: var(--acc);
+  --color-accbg: var(--accbg);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+
+  --font-head: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+:root {
+  --base: #e8e9ea;
+  --panel: #f6f6f6;
+  --ink: #12161a;
+  --dim: #4b535b;
+  --line: #c6cacf;
+  --acc: #a87500;
+  --accbg: #f2b705;
+  --ok: #1a7f45;
+  --warn: #c2410c;
+  --grid: rgba(0, 0, 0, 0.05);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --base: #0d1013;
+    --panel: #151a1f;
+    --ink: #e6e9ec;
+    --dim: #9aa4ae;
+    --line: #262d34;
+    --acc: #f2b705;
+    --ok: #3ddc84;
+    --warn: #ff7a45;
+    --grid: rgba(255, 255, 255, 0.035);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+body {
+  @apply bg-base text-ink font-sans antialiased;
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 40px 40px;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+::selection {
+  background: var(--accbg);
+  color: #111;
+}
+
+@layer components {
+  .panel {
+    @apply bg-panel border border-line;
+  }
+  .tag {
+    @apply font-mono text-[0.7rem] tracking-[0.12em] uppercase;
+  }
+  .hd {
+    @apply font-head font-bold uppercase leading-[0.95] tracking-[0.01em];
+  }
+  .story p {
+    @apply text-[1.1rem] leading-[1.9];
+  }
+  .story p + p {
+    @apply mt-6;
+  }
+}
