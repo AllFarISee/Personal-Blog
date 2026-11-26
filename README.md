@@ -13,8 +13,6 @@
 - **React.js** – Membangun antarmuka website.
 - **Vite** – Development server dan build tools.
 - **Tailwind **CSS** v4** – Mengatur styling dan tampilan website.
-- **Git & GitHub** – Version control dan penyimpanan source code.
-- **GitHub Pages** – Hosting dan deployment website.
 
 ## 🚀 Cara Menjalankan Project
 
