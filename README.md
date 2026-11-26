@@ -6,7 +6,6 @@ Personal Blog ini adalah website pribadi yang dibuat sebagai bagian dari tugas m
 
 ## 🛠️ Teknologi yang Digunakan
 
-Project ini dikembangkan menggunakan beberapa teknologi berikut:
 
 - **React.js** – Membangun antarmuka website.
 - **Vite** – Development server dan build tools.
@@ -16,7 +15,6 @@ Project ini dikembangkan menggunakan beberapa teknologi berikut:
 
 ## 🚀 Cara Menjalankan Project
 
-Jika ingin menjalankan project ini secara lokal, ikuti langkah berikut:
 
 **1. Clone repository**
 
@@ -42,7 +40,7 @@ Website dapat diakses melalui alamat lokal yang ditampilkan oleh Vite di termina
 
 ## 📂 Repository
 
-Source code project dapat dilihat melalui GitHub:
+Source code project:
 
 [https://github.com/AllFarISee/Personal-Blog](https://github.com/AllFarISee/Personal-Blog)
 
