@@ -1,16 +1,49 @@
-# React + Vite
+Personal Blog ini adalah website pribadi yang dibuat sebagai bagian dari tugas mata kuliah Pengembangan Diri. Blog ini menceritakan perjalanan, pengalaman, serta perkembangan saya dalam bidang teknologi dan Informatika, mulai dari pengalaman di dunia industri hingga ketertarikan terhadap pengembangan teknologi digital.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌐 Live Demo
 
-Currently, two official plugins are available:
+**Website:** [https://allfarisee.github.io/Personal-Blog/](https://allfarisee.github.io/Personal-Blog/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Teknologi yang Digunakan
 
-## React Compiler
+Project ini dikembangkan menggunakan beberapa teknologi berikut:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – Membangun antarmuka website.
+- **Vite** – Development server dan build tools.
+- **Tailwind **CSS** v4** – Mengatur styling dan tampilan website.
+- **Git & GitHub** – Version control dan penyimpanan source code.
+- **GitHub Pages** – Hosting dan deployment website.
 
-## Expanding the ESLint configuration
+## 🚀 Cara Menjalankan Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Jika ingin menjalankan project ini secara lokal, ikuti langkah berikut:
+
+**1. Clone repository**
+
+```bash git clone [https://github.com/AllFarISee/Personal-Blog.git](https://github.com/AllFarISee/Personal-Blog.git) ```
+
+**2. Masuk ke folder project**
+
+```bash cd Personal-Blog ```
+
+**3. Install dependencies**
+
+```bash npm install ```
+
+**4. Jalankan development server**
+
+```bash npm run dev ```
+
+Website dapat diakses melalui alamat lokal yang ditampilkan oleh Vite di terminal.
+
+**5. Build project**
+
+```bash npm run build ```
+
+## 📂 Repository
+
+Source code project dapat dilihat melalui GitHub:
+
+[https://github.com/AllFarISee/Personal-Blog](https://github.com/AllFarISee/Personal-Blog)
+
+**Created by AllFarISee**
